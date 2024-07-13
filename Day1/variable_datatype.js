@@ -42,3 +42,15 @@ bikeILike = "Kawasaki";
 console.log(bikeILike);
 
 // ============================== Activity 5 ==============================
+
+console.clear();
+const schoolPercentage = 73;
+console.log(schoolPercentage);
+schoolPercentage = 85;
+console.log(schoolPercentage);
+
+/*
+    Error Occured to assining value to constant variable.
+    -> Error Message: TypeError: Assignment to constant variable.
+    -> Meaning: Constant value can't be modified.
+*/
