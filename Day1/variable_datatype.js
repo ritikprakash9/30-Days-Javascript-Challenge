@@ -30,3 +30,15 @@ console.log(typeof emp_name);
 console.log(typeof emp_present);
 console.log(typeof Employee);
 console.log(typeof emp_skill);
+
+// ============================== Activity 4 ==============================
+
+console.clear();
+
+let bikeILike = "Ducatti";
+console.log(bikeILike);
+
+bikeILike = "Kawasaki";
+console.log(bikeILike);
+
+// ============================== Activity 5 ==============================
