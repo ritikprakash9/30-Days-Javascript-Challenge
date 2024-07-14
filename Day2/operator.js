@@ -63,3 +63,15 @@ console.log(Ducatti.topSpeed === Kawasaki.topSpeed);
     == : only check value
     === : Check value as well as data type
 */
+
+console.clear();
+//================================== Activity 4 ==================================
+
+2 > 3 && console.log("1. And Operator");
+2 < 3 && console.log("2. And Operator");
+
+2 > 3 || console.log("3. OR Operator");
+2 < 3 || console.log("4. OR Operator");
+
+console.log(Ducatti.topSpeed != Kawasaki.topSpeed);
+console.log(Ducatti.topSpeed !== Kawasaki.topSpeed);
