@@ -75,3 +75,11 @@ console.clear();
 
 console.log(Ducatti.topSpeed != Kawasaki.topSpeed);
 console.log(Ducatti.topSpeed !== Kawasaki.topSpeed);
+
+//================================== Activity 5 ==================================
+
+let number = 5;
+number > 0 ? console.log("Positive") : console.log("Negative");
+
+number = -5;
+number > 0 ? console.log("Positive") : console.log("Negative");
