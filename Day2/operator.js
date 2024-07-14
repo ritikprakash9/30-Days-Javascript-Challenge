@@ -17,3 +17,15 @@ console.log(div_result);
 
 let rem_result = num1 % num2;
 console.log(rem_result);
+
+console.clear();
+
+//================================== Activity 2 ==================================
+
+let maxSpeed = 80;
+
+maxSpeed += 20;
+console.log(maxSpeed);
+
+maxSpeed -= 50;
+console.log(maxSpeed);
