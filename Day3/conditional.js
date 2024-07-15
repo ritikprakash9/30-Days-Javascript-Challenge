@@ -117,8 +117,20 @@ switch (score / 10) {
 }
 
 console.clear();
-//================================== Activity 5 ==================================
+//================================== Activity 4 ==================================
 
 let num = 5;
 
 num > 0 ? console.log("Number is Positive") : console.log("Number is Negative");
+
+console.clear();
+
+//================================== Activity 5 ==================================
+
+let year = 2003;
+
+if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) {
+  console.log("Year is leap year");
+} else {
+  console.log("Year is not a leap year");
+}
