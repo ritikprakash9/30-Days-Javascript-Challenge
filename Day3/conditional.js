@@ -117,3 +117,10 @@ switch (score / 10) {
   default:
     console.log("F Grade");
 }
+
+console.clear();
+//================================== Activity 5 ==================================
+
+let num = 5;
+
+num > 0 ? console.log("Number is Positive") : console.log("Number is Negative");
