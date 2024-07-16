@@ -19,3 +19,9 @@ while (i <= 10) {
 }
 
 console.log(`Sum of first 10 number is ${sum}`);
+
+let num = 10;
+while (num >= 1) {
+  console.log(num);
+  num--;
+}
