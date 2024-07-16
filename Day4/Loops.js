@@ -35,3 +35,14 @@ do {
   console.log(number);
   number++;
 } while (number <= 5);
+
+console.clear();
+
+let fact = 1;
+let counter = 1;
+do {
+  fact = fact * counter;
+  counter++;
+} while (counter <= 5);
+
+console.log(fact);
