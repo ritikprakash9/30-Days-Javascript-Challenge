@@ -25,3 +25,13 @@ while (num >= 1) {
   console.log(num);
   num--;
 }
+
+console.clear();
+
+//================================== Activity 3 ==================================
+
+let number = 1;
+do {
+  console.log(number);
+  number++;
+} while (number <= 5);
