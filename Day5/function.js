@@ -72,7 +72,16 @@ console.log(product(23));
 let pro = (num1, num2 = 2) => num1 * num2;
 
 console.log(pro(123));
+
+console.clear();
+
 // Task 2:
+
+let greetMessage = (name, age = 18) =>
+  console.log(`Hello ${name}, have a nice day`);
+
+greetMessage("Ritik");
+greetMessage("Prakash", 21);
 
 //================================== Activity 5 ==================================
 
