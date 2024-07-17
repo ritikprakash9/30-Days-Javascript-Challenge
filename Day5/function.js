@@ -32,7 +32,14 @@ let maxOfTwo = (num1, num2) => {
 };
 
 maxOfTwo(2, 3);
+
+console.clear();
+
 // Task 2:
+
+let fullName = (firstName, lastName) => firstName + " " + lastName;
+
+console.log(fullName("Ritik", "Prakash"));
 
 //================================== Activity 3 ==================================
 
