@@ -83,8 +83,23 @@ let greetMessage = (name, age = 18) =>
 greetMessage("Ritik");
 greetMessage("Prakash", 21);
 
+console.clear();
+
 //================================== Activity 5 ==================================
 
 // Task 1:
+
+function callBackFunction() {
+  console.log("I am call back function");
+}
+
+function higherOrderFunction(fun, num) {
+  console.log("I am Higher Order Function");
+  for (let i = 0; i < num; i++) {
+    fun();
+  }
+}
+
+higherOrderFunction(callBackFunction, 5);
 
 // Task 2:
