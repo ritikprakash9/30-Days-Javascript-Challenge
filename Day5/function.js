@@ -51,6 +51,12 @@ console.log(sum(5, 7));
 
 // Task 2:
 
+let value = (value, contain) => {
+  return value.includes(contain);
+};
+
+console.log(value("Ritik", "R"));
+console.log(value("Ritik", "P"));
 //================================== Activity 4 ==================================
 
 // Task 1:
