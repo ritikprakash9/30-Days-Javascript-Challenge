@@ -15,6 +15,10 @@ evenOdd(413);
 
 // Task 2:
 
+let square = (num) => console.log(`${num}^2 = ${num * num}`);
+
+square(5);
+
 //================================== Activity 2 ==================================
 
 // Task 1:
