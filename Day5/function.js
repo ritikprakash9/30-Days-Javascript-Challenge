@@ -45,6 +45,10 @@ console.log(fullName("Ritik", "Prakash"));
 
 // Task 1:
 
+let sum = (num1, num2) => num1 + num2;
+
+console.log(sum(5, 7));
+
 // Task 2:
 
 //================================== Activity 4 ==================================
