@@ -23,6 +23,15 @@ square(5);
 
 // Task 1:
 
+let maxOfTwo = (num1, num2) => {
+  if (num1 > num2) {
+    console.log(`${num1} is greater`);
+  } else {
+    console.log(`${num2} is greater`);
+  }
+};
+
+maxOfTwo(2, 3);
 // Task 2:
 
 //================================== Activity 3 ==================================
