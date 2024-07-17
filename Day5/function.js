@@ -102,4 +102,25 @@ function higherOrderFunction(fun, num) {
 
 higherOrderFunction(callBackFunction, 5);
 
+console.clear();
+
 // Task 2:
+
+function printValue(value) {
+  console.log(value);
+  return value;
+}
+
+function returnValue(value) {
+  return value;
+}
+function HOF(fun1, fun2, value) {
+  console.log("Higher Order Function");
+
+  const result1 = fun1(value);
+  const result2 = fun2(result1);
+
+  console.log(result1 + " " + result2);
+}
+
+let val = HOF(printValue, returnValue, 5);
