@@ -92,4 +92,15 @@ bike.forEach(function (element) {
 
 // Task 12:
 
+let employee = [
+  [101, 102, 103],
+  ["abc", "pqr", "xyz"],
+];
+
+for (let i = 0; i < employee.length; i++) {
+  for (let j = 0; j < employee[i].length; j++) {
+    console.log(employee[i][j]);
+  }
+}
+
 // Task 13:
