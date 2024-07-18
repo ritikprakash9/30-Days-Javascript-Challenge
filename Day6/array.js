@@ -50,7 +50,18 @@ const doubleOfEven = evenNumber.map(function (element) {
 });
 
 console.log(doubleOfEven);
+
 // Task 8:
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const evenNumbers = numbers.filter(function (element) {
+  if (element % 2 == 0) {
+    return element;
+  }
+});
+
+console.log(evenNumbers);
 
 // Task 9:
 
