@@ -76,7 +76,18 @@ console.log(sum);
 
 // Task 10:
 
+let bike = ["Kawasaki", "ducatii", "dominar"];
+
+for (let i = 0; i < bike.length; i++) {
+  console.log(bike[i]);
+}
+
 // Task 11:
+
+bike.forEach(function (element) {
+  console.log(element);
+});
+
 //================================== Activity 5 ==================================
 
 // Task 12:
