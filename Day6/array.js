@@ -8,7 +8,11 @@ for (let i = 0; i < num.length; i++) {
   console.log(num[i]);
 }
 
+console.clear();
 // Task 2:
+
+console.log(num[0]);
+console.log(num[num.length - 1]);
 
 //================================== Activity 2 ==================================
 
