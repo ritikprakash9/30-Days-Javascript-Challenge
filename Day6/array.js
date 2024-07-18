@@ -104,3 +104,5 @@ for (let i = 0; i < employee.length; i++) {
 }
 
 // Task 13:
+
+console.log(employee[1][1]);
