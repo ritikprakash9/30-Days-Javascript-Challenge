@@ -38,10 +38,18 @@ console.log(num);
 num.unshift(101);
 console.log(num);
 
+console.clear();
 //================================== Activity 3 ==================================
 
 // Task 7:
 
+const evenNumber = [2, 4, 6, 8, 10];
+
+const doubleOfEven = evenNumber.map(function (element) {
+  return element * 2;
+});
+
+console.log(doubleOfEven);
 // Task 8:
 
 // Task 9:
