@@ -1,3 +1,9 @@
+function printArray(num) {
+  for (let i = 0; i < num.length; i++) {
+    console.log(num[i]);
+  }
+}
+
 //================================== Activity 1 ==================================
 
 // Task 1:
@@ -14,16 +20,30 @@ console.clear();
 console.log(num[0]);
 console.log(num[num.length - 1]);
 
+console.clear();
+
 //================================== Activity 2 ==================================
 
 // Task 3:
 
+num.push(6);
+printArray(num);
+
 // Task 4:
+num.pop();
+printArray(num);
+console.clear();
 
 // Task 5:
 
+num.shift();
+printArray(num);
+
+console.clear();
 // Task 6:
 
+num.unshift(101);
+printArray(num);
 //================================== Activity 3 ==================================
 
 // Task 7:
