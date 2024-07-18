@@ -53,7 +53,7 @@ console.log(doubleOfEven);
 
 // Task 8:
 
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const evenNumbers = numbers.filter(function (element) {
   if (element % 2 == 0) {
@@ -63,7 +63,14 @@ const evenNumbers = numbers.filter(function (element) {
 
 console.log(evenNumbers);
 
+console.clear();
 // Task 9:
+
+let sum = numbers.reduce(function (add, element) {
+  return add + element;
+});
+
+console.log(sum);
 
 //================================== Activity 4 ==================================
 
