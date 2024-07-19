@@ -9,6 +9,11 @@ const books = {
   getBook() {
     return `Book Name = ${this.title}, Author=${this.author}`;
   },
+
+  publishYear(year) {
+    this.year = year;
+    return `Book Name = ${this.title}, Author=${this.author}, Publish Year = ${this.year}`;
+  },
 };
 
 console.log(books);
@@ -24,6 +29,7 @@ console.log(`Book Name = ${books.title}, Author = ${books.author}`);
 console.log(books.getBook);
 // Task 4:
 
+console.log(books.publishYear(2000));
 //================================== Activity 3 ==================================
 
 // Task 5:
