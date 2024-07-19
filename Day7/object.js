@@ -8,9 +8,7 @@ const books = {
   year: 1995,
 };
 
-console.log(
-  `The book name is ${books.title} which is written by ${books.author} and publish year is ${books.year}`
-);
+console.log(books);
 
 // Task 2:
 
