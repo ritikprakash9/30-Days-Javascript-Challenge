@@ -12,6 +12,8 @@ console.log(books);
 
 // Task 2:
 
+console.log(`Book Name = ${books.name}, Author`);
+
 //================================== Activity 2 ==================================
 
 // Task 3:
