@@ -2,6 +2,16 @@
 
 // Task 1:
 
+const books = {
+  author: "James Gosling",
+  title: "Java Programming",
+  year: 1995,
+};
+
+console.log(
+  `The book name is ${books.title} which is written by ${books.author} and publish year is ${books.year}`
+);
+
 // Task 2:
 
 //================================== Activity 2 ==================================
