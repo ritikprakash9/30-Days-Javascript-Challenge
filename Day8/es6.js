@@ -2,6 +2,11 @@
 
 // Task 1:
 
+let personName = "Ritik";
+let personAge = 23;
+
+console.log(`Person Name is ${personName} and person age is ${personAge}`);
+
 // Task 2:
 
 //================================== Activity 2 ==================================
