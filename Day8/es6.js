@@ -30,8 +30,21 @@ const addCar = [...car, "Maruti Suzuki", "Alto"];
 
 console.log(car);
 console.log(addCar);
+
 // Task 6:
 
+const add = (...num) => {
+  let sum = 0;
+  for (let i = 0; i < num.length; i++) {
+    sum = sum + num[i];
+  }
+
+  return sum;
+};
+
+console.log(add(1));
+console.log(add(1, 2));
+console.log(add(1, 2, 3));
 //================================== Activity 4 ==================================
 
 // Task 7:
