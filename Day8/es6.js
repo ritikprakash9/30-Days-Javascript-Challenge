@@ -24,6 +24,12 @@ console.log(`This
 
 // Task 5:
 
+const car = ["BMW", "Lamborgini"];
+
+const addCar = [...car, "Maruti Suzuki", "Alto"];
+
+console.log(car);
+console.log(addCar);
 // Task 6:
 
 //================================== Activity 4 ==================================
