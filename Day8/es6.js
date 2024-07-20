@@ -9,6 +9,11 @@ console.log(`Person Name is ${personName} and person age is ${personAge}`);
 
 // Task 2:
 
+console.log(`This
+    is a multiline
+    string which
+    is introduced in Javascript ES6`);
+
 //================================== Activity 2 ==================================
 
 // Task 3:
