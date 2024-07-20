@@ -26,6 +26,13 @@ console.log(`1st = ${first} and 2nd = ${second}`);
 
 // Task 4:
 
+const book = {
+  title: "Java Programming",
+  author: "James Gosling",
+};
+
+console.log(`Titile = ${book.title} and author = ${book.author}`);
+
 //================================== Activity 3 ==================================
 
 // Task 5:
