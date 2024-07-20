@@ -30,6 +30,11 @@ console.log(`This
 
 // Task 7:
 
+const product = (num1, num2 = 1) => num1 * num2;
+
+console.log(product(3, 5));
+console.log(product(2));
+
 //================================== Activity 5 ==================================
 
 // Task 8:
