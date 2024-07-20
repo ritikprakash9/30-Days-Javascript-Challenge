@@ -71,4 +71,14 @@ console.log(product(2));
 
 // Task 8:
 
+let id = 101;
+let firstName = "Ritik";
+let lastName = "Prakash";
+
+let details = { id, firstName, lastName };
+
+console.log(
+  `Id = ${details.id}, First Name = ${details.firstName}, Last Name = ${details.lastName}`
+);
+
 // Task 9:
