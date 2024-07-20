@@ -30,10 +30,18 @@ console.log(books.getBook);
 // Task 4:
 
 console.log(books.publishYear(2000));
+
+console.clear();
 //================================== Activity 3 ==================================
 
 // Task 5:
 
+const Library = {
+  name: "ABC Library",
+  book: [{}],
+};
+
+console.log(Library);
 // Task 6:
 
 //================================== Activity 4 ==================================
