@@ -18,6 +18,12 @@ console.log(`This
 
 // Task 3:
 
+const number = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const [first, second] = number;
+
+console.log(`1st = ${first} and 2nd = ${second}`);
+
 // Task 4:
 
 //================================== Activity 3 ==================================
