@@ -1,28 +1,28 @@
 // Task 1:
 
-const isLoggedIn = false;
+const isLoggedIn = true;
 
 function authorizeUser() {
   return new Promise(function (resolve, reject) {
     if (isLoggedIn) {
-      resolve("The user is autorized");
+      setTimeout(() => {
+        resolve("The user is autorized");
+      }, 2000);
     }
 
     // task 2
     else {
-      reject("The user is not autorized");
+      setTimeout(() => {
+        reject("The user is not autorized");
+      }, 2000);
     }
   });
 }
 
 authorizeUser()
   .then(function (message) {
-    setTimeout(() => {
-      console.log(message);
-    }, 2000);
+    console.log(message);
   })
   .catch(function (message) {
-    setTimeout(() => {
-      console.log(message);
-    }, 2000);
+    console.log(message);
   });
