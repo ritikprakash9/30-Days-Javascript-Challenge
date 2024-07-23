@@ -7,6 +7,11 @@ function authorizeUser() {
     if (isLoggedIn) {
       resolve("The user is autorized");
     }
+
+    // task 2
+    else {
+      reject("The user is not autorized");
+    }
   });
 }
 
@@ -16,7 +21,7 @@ authorizeUser()
       console.log(message);
     }, 2000);
   })
-  .catch(function () {
+  .catch(function (message) {
     setTimeout(() => {
       console.log(message);
     }, 2000);
