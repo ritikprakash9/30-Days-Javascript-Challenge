@@ -1,0 +1,20 @@
+[
+    {
+        "id": 101,
+        "FirstName": "Ritik",
+        "Last Name": "Prakash",
+        "Occupation": "Software Engineer"
+    },
+    {
+        "id": 102,
+        "FirstName": "Gyantik",
+        "Last Name": "Prakash",
+        "Occupation": "Charted Accounted"
+    },
+    {
+        "id": 103,
+        "FirstName": "Ritik",
+        "Last Name": "Prakash",
+        "Occupation": "Software Engineer"
+    }
+]
