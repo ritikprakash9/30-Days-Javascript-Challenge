@@ -4,7 +4,7 @@ let loc = document.getElementById("city");
 
 // api handling
 
-let apiKey = "6e93b3d15872f914c6929fed9ea71e9a";
+let apiKey = "c601b69c296302d00667163d4d0480ba";
 let city = "Hyderabad";
 let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 console.log(url);
@@ -13,7 +13,10 @@ function getWheatherDetails() {
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
-      if (data.name == undefined) data.name = "Hyderabad";
+      console.log(data);
+      if (data.cod == "404") {
+        alert("City not found");
+      }
       loc.innerText = data.name;
       let temp = data.main.temp - 273.15;
       temp = Math.round(temp);
