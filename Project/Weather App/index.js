@@ -17,6 +17,12 @@ function getWheatherDetails() {
       if (data.cod == "404") {
         alert("City not found");
       }
+
+      let icon = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+      document.getElementById("img").setAttribute("src", icon);
+
+      console.log(data.weather[0].icon);
+
       loc.innerText = data.name;
       let temp = data.main.temp - 273.15;
       temp = Math.round(temp);
