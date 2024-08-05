@@ -13,7 +13,7 @@ function getWheatherDetails() {
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
-      //   console.log(data.name);
+      if (data.name == undefined) data.name = "Hyderabad";
       loc.innerText = data.name;
       let temp = data.main.temp - 273.15;
       temp = Math.round(temp);
