@@ -2,6 +2,35 @@ let searchBtn = document.getElementById("searchBtn");
 
 let loc = document.getElementById("city");
 
+//get current location
+
+let currentLocation = "1";
+let latitude = 0;
+let longitude = 0;
+let locationUrl = `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}`;
+
+let loca = navigator.geolocation.getCurrentPosition(
+  (position) => {
+    latitude = position.coords.latitude;
+    longitude = position.coords.longitude;
+    url = `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}`;
+
+    function getCurrentPosition() {
+      fetch(url)
+        .then((res) => res.json())
+        .then((data) => console.log(data.city));
+    }
+
+    getCurrentPosition();
+
+    currentLocation = console.log(getCurrentPosition());
+  },
+  () => {
+    console.log("Some Error");
+  }
+);
+
+console.log(currentLocation);
 // api handling
 
 let apiKey = "c601b69c296302d00667163d4d0480ba";
