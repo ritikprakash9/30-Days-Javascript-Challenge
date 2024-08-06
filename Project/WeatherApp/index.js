@@ -51,6 +51,8 @@ function getWheatherDetails() {
       let temp = data.main.temp - 273.15;
       temp = Math.round(temp);
       document.getElementById("temp").innerText = temp;
+      console.log(data);
+      console.log(data.weather[0].description);
     });
 }
 
